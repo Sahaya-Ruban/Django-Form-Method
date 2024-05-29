@@ -1,0 +1,73 @@
+.body2{
+    /* background-color: #21D4FD;
+    background-image: linear-gradient(85deg, #21D4FD 0%, #B721FF 100%); */
+    background-image: url(../images/registration_form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: brightness(0%); */
+
+}
+
+.body2 h1,h3{
+    text-align: center;
+    font-family:'poppins', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #9f2089;
+}
+
+form{
+   margin-left: 30rem;
+   margin-top: 3rem;
+   
+}
+
+form table{
+    backdrop-filter: blur(20px);
+    padding: 20px;
+}
+
+.body2 form label{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 600;
+}
+
+.body2 form input,textarea,select{
+    margin-left: 2rem;
+    height: 1.5rem;
+}
+
+.submit input{
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.body1{
+    background-image: url(../images/table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.table1{
+    margin-top: 10rem;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table1 th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* padding: 1.5rem 1rem; */
+    width: 10rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.table1 td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 10rem;
+    padding-top: 1rem;
+    text-align: center;
+}

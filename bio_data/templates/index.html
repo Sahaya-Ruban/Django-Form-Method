@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    {%load static%}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body class="body2">
+    <h1>Welcome to ABC Company</h1>
+    <!-- <h3>Please Enter Your Details</h3> -->
+    <form action="details/" method="get">
+        <table>
+            <tr>
+                <td><label for="Name">Name:</label></td>
+                <td><input type="text" name="Name" placeholder="Enter Your Name"></td>
+            </tr>
+            <tr>
+                <td><label for="Age">Age:</label></td>
+                <td><input type="number" name="Age" placeholder="Enter Your Age"></td>
+            </tr>
+            <tr>
+                <td><label for="Mobile_no">Mobile No:</label></td>
+                <td><input type="number" name="Mobile_no" placeholder="Enter Your Mbile No"></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email:</label></td>
+                <td><input type="email" name="Email" placeholder="Enter Your Email"></td>
+            </tr>
+            <tr>
+                <td><label for="DOB">Date of Birth:</label></td>
+                <td><input type="date" name="DOB"></td>
+            </tr>
+            <tr>
+                <td><label for="Address">Address:</label></td>
+                <td><textarea name="Address" placeholder="Enter Your Address"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="District">District:</label></td>
+                <td><input type="text" name="District" placeholder="Enter Your District"></td>
+            </tr>
+            <tr>
+                <td><label for="State">State:</label></td>
+                <td><input type="text" name="State" placeholder="Enter Your State"></td>
+            </tr>
+            <tr>
+                <td><label for="Country">Country:</label></td>
+                <td><input type="text" name="Country" placeholder="Enter Your Country"></td>
+            </tr>
+            <tr>
+                <td><label for="Pincode">Pin Code:</label></td>
+                <td><input type="number" name="Pincode" placeholder="Enter Your Pin Code"></td>
+            </tr>
+            <tr>
+                <td><label for="Qualification">Qualification:</label></td>
+                <td><input type="text" name="Qualification" placeholder="Enter Your Qualification"></td>
+            </tr>
+            <tr>
+                <td><label for="Matrital_status">Matrital Status:</label></td>
+                <td>
+                    <select name="Matrital_status">
+                        <option>---select---</option>
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="submit"><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
